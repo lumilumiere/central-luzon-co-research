@@ -53,6 +53,8 @@ Drivable length: Capas 706.2 km, Bamban 322.2 km, Mabalacat 697.0 km.
 
 ## Observed traffic
 
+- **2012 JICA counts and travel times (historical comparators only):** transcribed with arithmetic checks in [`jica-2012-counts.md`](jica-2012-counts.md). For example, Dau IC 12,276 vehicles in 18 hours, Dau Access Road 8,840 and Sta. Ines Access Road 6,505, with MacArthur Highway runs EDSA–Clark Airport at 22–33 km/h, all in October 2012. These are not current counts and not calibration targets (RD-021).
+
 - DPWH operated 2,849 traffic survey stations nationwide when a JICA report was prepared (PDF metadata dated 2013): 1,350 automated (578 in-ground, 772 on-ground) and 1,499 manual, with 15 vehicle classes. Source: https://openjicareport.jica.go.jp/pdf/12122081_02.pdf, Chapter 6. Only part of that report was read, and whether its "Study Area" includes this corridor was not established. Corridor stations are **Not found**.
 - FOI records show AADT released on request: https://foi.gov.ph/requests/annual-average-daily-traffic-aadt-and-traffic-growth-rate. No open corridor table was found.
 - SCTEX whole-road average daily traffic: 70,538 (2019), 56,362 (2021), 70,894 (2022) vehicles, from a press report: https://malaya.com.ph/business-news/sctex-posts-record-high-p3-26b-revenue. Context only. These are whole-road figures, and the averaging method is not stated.

@@ -48,7 +48,7 @@ Recorded, not scored: terrain, land cover, flood, landslide, protected areas, bi
 
 1. Can store-level sales or visits be obtained under a data-sharing agreement, and in what schema?
 2. Are corridor AADT stations held in DPWH's traffic application, and for which years?
-3. What do the 2012 JICA station counts show, read manually from the PDF?
+3. ~~What do the 2012 JICA station counts show, read manually from the PDF?~~ Answered in the closeout pass: [`jica-2012-counts.md`](jica-2012-counts.md) (historical comparators only).
 4. Is the NCTS TIA guideline adopted by any LGU in the corridor?
 5. Which RDO currently governs each municipality, and what are the official zonal schedules?
 6. How complete are building footprints against a manual reference sample?

@@ -43,7 +43,14 @@ Building use and floor area: **Not found** as an open source. PSA permits give m
 
 ## Quality evidence
 
-Gevaert et al. 2024 audits global building datasets in Tanzania and the Philippines: https://research.utwente.nl/en/publications/auditing-geospatial-datasets-for-biases-using-global-building-dat/. Only the abstract was read, so its numbers are Not read. It is not corridor validation.
+Gevaert, Buunk and van den Homberg 2024 (IEEE JSTARS 17:12579–12590, CC BY 4.0) audit Google, Microsoft, Overture and OSM in Tanzania and the Philippines: https://research.utwente.nl/en/publications/auditing-geospatial-datasets-for-biases-using-global-building-dat-2/.
+- **Abstract findings:**
+    - Accuracy in both countries is lower than expected.
+    - Google (confidence above 0.7) and OSM give the best balance of false negatives and false discoveries, with Google more consistent across tiles.
+    - Biases differ by dataset and area.
+    - Each new region and application should be audited.
+- **Not read:** the full text returned 403 or was not served to tools in the closeout pass, so the Philippine study area and its numbers are not read.
+- **Not corridor validation.**
 
 Sirko et al. 2021 (https://arxiv.org/pdf/2107.12283, primary read) describes the Open Buildings method:
 - Confidence thresholds are set per S2 cell to target 80%, 85% and 90% precision at 0.5 IoU.
@@ -53,7 +60,12 @@ Sirko et al. 2021 (https://arxiv.org/pdf/2107.12283, primary read) describes the
 
 A secondary study reports that Microsoft and Google both claim roughly 70% recall: https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.35/LIPIcs.GIScience.2023.35.pdf
 
-**Counts are not accuracy.** Google's higher count could reflect more detections, false positives or splitting, so no source is ranked. Measuring corridor accuracy needs a reference sample, recommended in [`validation-standards.md`](validation-standards.md).
+**Counts are not accuracy.** Google's higher count could reflect more detections, false positives or splitting, so no source is ranked.
+
+**Status: blocked by a specific external dependency (B-15).**
+- No independent corridor reference footprints were found in the searches performed.
+- Agreement between the datasets is agreement between model outputs, so it was not computed as a stand-in for accuracy.
+- Measuring accuracy needs the reference sample specified in [T-09](../acquisition/request-templates.md#t-09-building-reference-sample-acquisition-specification-not-a-request), or LGU assessor data. See [closeout §6](closeout-partial-items.md#6-building-quality--blocked-by-a-specific-external-dependency).
 
 ## Barangay use
 

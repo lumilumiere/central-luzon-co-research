@@ -1,0 +1,36 @@
+table,pdf_page,report_page,station_code,station_name,road,entrance_exit,direction,metric,unit,value,survey_date,note
+1.7-1,10,A-9,17,Angeles IC,NLEX,Entrance,,traffic count 18 h,veh,4644,2012-10-30,
+1.7-1,10,A-9,17,Angeles IC,NLEX,Exit,,traffic count 18 h,veh,4174,2012-10-30,
+1.7-1,10,A-9,17,Angeles IC,NLEX,Total,,traffic count 18 h,veh,8818,2012-10-30,
+1.7-1,10,A-9,19,Dau IC,NLEX,Entrance,,traffic count 18 h,veh,5742,not stated,Station 19 absent from Table 1.5-1; Figure 1.4-1 inset labels 19 as SCTEX Link
+1.7-1,10,A-9,19,Dau IC,NLEX,Exit,,traffic count 18 h,veh,6534,not stated,
+1.7-1,10,A-9,19,Dau IC,NLEX,Total,,traffic count 18 h,veh,12276,not stated,
+1.7-1,10,A-9,26,Bridge at Angeles,NLEX,,Southbound,traffic count 24 h,veh,15537,2012-10-30,Table 1.5-1 lists Northbound only (MCC 24 h; VOC 24 h; RSI 18 h)
+1.7-1,10,A-9,26,Bridge at Angeles,NLEX,,Northbound,traffic count 24 h,veh,17980,2012-10-30,Figure 1.4-1 inset labels 26 as Angeles (Shell Gas Sta.)
+1.7-1,10,A-9,26,Bridge at Angeles,NLEX,,Total,traffic count 24 h,veh,33517,2012-10-30,
+1.7-1,10,A-9,27,Dau Access Road,NLEX,Entrance,,traffic count 18 h,veh,4580,2012-10-30,
+1.7-1,10,A-9,27,Dau Access Road,NLEX,Exit,,traffic count 18 h,veh,4260,2012-10-30,
+1.7-1,10,A-9,27,Dau Access Road,NLEX,Total,,traffic count 18 h,veh,8840,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Entrance,Southbound,traffic count 18 h,veh,1888,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Entrance,Northbound,traffic count 18 h,veh,1423,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Entrance,Total,traffic count 18 h,veh,3311,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Exit,Southbound,traffic count 18 h,veh,1466,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Exit,Northbound,traffic count 18 h,veh,1728,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Exit,Total,traffic count 18 h,veh,3194,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Total,Southbound,traffic count 18 h,veh,3354,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Total,Northbound,traffic count 18 h,veh,3151,2012-10-30,
+1.7-1,10,A-9,28,Sta. Ines Access Road,NLEX,Total,Total,traffic count 18 h,veh,6505,2012-10-30,
+1.7-1,10,A-9,24,Clark Airport,Clark airport,Entrance,,traffic count 24 h,veh,2280,not stated,Table 1.5-1 leaves day and date blank
+1.7-1,10,A-9,24,Clark Airport,Clark airport,Exit,,traffic count 24 h,veh,2215,not stated,
+1.7-1,10,A-9,24,Clark Airport,Clark airport,Total,,traffic count 24 h,veh,4495,not stated,
+5.5-1,35,A-34,run1,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,travel time,h:mm:ss,2:55:48,2012-10-24,departure 06:18:36 arrival 09:14:24; 86 km; 29 km/h
+5.5-1,35,A-34,run2,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,travel time,h:mm:ss,3:31:20,2012-10-24,departure 10:07:43 arrival 13:39:03; 24 km/h
+5.5-1,35,A-34,run3,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,travel time,h:mm:ss,3:30:02,2012-10-19,departure 11:50:18 arrival 15:20:20; 25 km/h
+5.5-1,35,A-34,run4,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,travel time,h:mm:ss,3:54:04,2012-10-24,departure 13:52:19 arrival 17:46:23; 22 km/h
+5.5-1,35,A-34,run5,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,travel time,h:mm:ss,2:34:09,2012-10-19,departure 21:42:45 arrival 00:16:54; 33 km/h
+5.5-1,35,A-34,run6,Clark Airport to EDSA,MacArthur Highway,,Clark Airport to EDSA,travel time,h:mm:ss,3:00:52,2012-10-24,departure 06:20:44 arrival 09:21:36; 29 km/h
+5.5-1,35,A-34,run7,Clark Airport to EDSA,MacArthur Highway,,Clark Airport to EDSA,travel time,h:mm:ss,3:14:44,2012-10-24,departure 10:11:12 arrival 13:25:56; 26 km/h
+5.5-1,35,A-34,run8,Clark Airport to EDSA,MacArthur Highway,,Clark Airport to EDSA,travel time,h:mm:ss,3:48:03,2012-10-19,departure 16:45:54 arrival 20:33:57; 23 km/h
+5.5-1,35,A-34,run9,Clark Airport to EDSA,MacArthur Highway,,Clark Airport to EDSA,travel time,h:mm:ss,3:02:12,2012-10-25,departure 17:46:23 arrival 20:48:35; 28 km/h
+5.5-1,35,A-34,avg,EDSA to Clark Airport,MacArthur Highway,,EDSA to Clark Airport,average travel time,h:mm:ss,3:17:05,,report average; 26 km/h
+5.5-1,35,A-34,avg,Clark Airport to EDSA,MacArthur Highway,,Clark Airport to EDSA,average travel time,h:mm:ss,3:25:07,,report average; 25 km/h; does not match the mean of runs 6-9 (see check script)

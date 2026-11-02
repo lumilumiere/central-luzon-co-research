@@ -30,3 +30,11 @@
 | 24 | HDX general terms "unread" | Read at docs.humdata.org: dataset licences govern use, and personal data is prohibited |
 | 25 | Checklist row 2.6 "≤1 major disconnected component" treated as a test of the graph | It is an unsourced assumption; see `validation-standards.md` |
 | 26 | Reproduction script matched barangay names across municipalities | Bug found by the sum check; names repeat, so matching is now per municipality. Published figures were unaffected |
+| 27 | "Validation standards were read from primary texts" (previous chat report) | True for TAG M3.1, FHWA 2019, the NCTS guide and Sirko 2021 only. NCHRP 934, AACE, ISO 19157 and ITE are secondary. See `primary-source-audit.md` |
+| 28 | "GEH below 3 preferred on state facilities" attributed to FHWA 2004 | That is TxDOT practice. FHWA 2004 Table 4 reproduces Wisconsin DOT criteria (primary, read in the closeout pass) |
+| 29 | FHWA 2010 validation manual "not read" | Retrieved and read at p. 9-18: example guidelines "should not be construed as standards" |
+| 30 | Permit unit "supported by PSA's April 2024 release" (model inputs note) | Supported only by a search excerpt; the release PDF returns 403 and the table has no unit metadata |
+| 31 | "No public source of store sales or visits exists" and similar absence wording | Rephrased: no suitable source was found in the searches performed |
+| 32 | "Dated official yield Not found; about 8.10% Unverified" | ADB AsianBondsOnline: 10-year 8.076% at close of 2026-10-29 (multilateral source) |
+| 33 | Policy rate "5.00%; October decision Not found" | 5.50% after the 2026-10-22 decision (secondary press) |
+| 34 | 2012 JICA counts "need manual reading" | Transcribed from page images with arithmetic checks. The source's own Clark-to-EDSA average differs from its runs by 519 s |

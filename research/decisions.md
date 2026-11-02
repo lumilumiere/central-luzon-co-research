@@ -168,3 +168,42 @@ Findings use "Central Luzon industrial district POC". The development authority 
 
 - **Chosen:** report strong connectivity on a directed graph from OSM `oneway` tags, and stop reporting weak connectivity as routability.
 - **Why:** weak connectivity (98.8% of ways) overstated what a router can use (96.3% of nodes in the largest strong component).
+
+## Added in the closeout pass (2026-11-02)
+
+### RD-021 — 2012 JICA counts are historical comparators only
+
+- **Chosen:** use the transcribed 2012 counts and travel times only for order-of-magnitude comparison with model outputs.
+- **Not allowed:** using them as calibration targets, validation data or evidence of current traffic.
+- **Why:** they are 14 years old, the network and land use have changed since, and the source has internal inconsistencies.
+- Evidence: [`findings/jica-2012-counts.md`](findings/jica-2012-counts.md).
+
+### RD-022 — Pack volatile inputs
+
+- **Chosen:** commit redistributable copies of inputs that live endpoints or re-uploads cannot return again:
+    - Overpass snapshots.
+    - OSM municipal polygons.
+    - COD-AB clips.
+    - Microsoft corridor lines.
+    - Overture places.
+- **Naming rule applied:**
+    - The Overpass ways are reduced to the topology tags the script reads.
+    - Six Overture place-name cells carrying an agency or project-brand name are blanked.
+    - The full originals stay local, with their hashes recorded.
+- **Checked:** the packed copies reproduce the published Microsoft counts, the directed-connectivity result and the brand comparison exactly.
+- **Not packed:**
+    - PSA responses, because their terms are unread (B-03).
+    - Versioned downloads, which are recorded with URL and SHA-256 instead.
+    - Restricted data.
+- Evidence: [`evidence/inputs/README.md`](evidence/inputs/README.md).
+
+### RD-023 — One status per remaining item
+
+- **Chosen:** every remaining item gets exactly one status:
+    - Completed.
+    - Searched; no suitable evidence found.
+    - Blocked by a specific external dependency.
+    - Deferred with a documented reason.
+    - Still incomplete.
+- **Wording rule:** "Not found" means no suitable source was found in the searches performed. An unsourced checklist threshold is not proof that no standard exists.
+- Evidence: [`requirements-checklist.md`](requirements-checklist.md).

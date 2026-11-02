@@ -1,0 +1,23 @@
+ok   station 17 entrance+exit=total 8818 8818
+ok   station 19 entrance+exit=total 12276 12276
+ok   station 27 entrance+exit=total 8840 8840
+ok   station 24 entrance+exit=total 4495 4495
+ok   station 26 SB+NB=total 33517 33517
+ok   station 28 Entrance SB+NB 3311 3311
+ok   station 28 Exit SB+NB 3194 3194
+ok   station 28 Total SB+NB 6505 6505
+ok   station 28 entrance+exit Southbound 3354 3354
+ok   station 28 entrance+exit Northbound 3151 3151
+ok   station 28 entrance+exit Total 6505 6505
+ok   run1 arrival-departure 10548 10548
+ok   run2 arrival-departure 12680 12680
+ok   run3 arrival-departure 12602 12602
+ok   run4 arrival-departure 14044 14044
+ok   run5 arrival-departure 9249 9249
+ok   run6 arrival-departure 10852 10852
+ok   run7 arrival-departure 11684 11684
+ok   run8 arrival-departure 13683 13683
+ok   run9 arrival-departure 10932 10932
+info EDSA to Clark Airport mean of runs 3:17:04 printed 11825 diff s 0
+info Clark Airport to EDSA mean of runs 3:16:27 printed 12307 diff s 519
+transcription arithmetic failures: 0

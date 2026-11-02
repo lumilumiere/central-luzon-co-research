@@ -3,7 +3,8 @@
 ## Environment
 
 - Python 3.14 virtual environment; packages pinned in [`evidence/requirements-lock.txt`](evidence/requirements-lock.txt).
-- Key packages: geopandas, rasterio, shapely, pyogrio, pandas, numpy, duckdb, networkx, requests, openpyxl.
+- Key packages: geopandas, rasterio, shapely, pyogrio, pandas, numpy, duckdb, networkx, requests, openpyxl, and pymupdf (added in the closeout pass for rendering PDF pages).
+- **Volatile inputs are packed** in [`evidence/inputs/`](evidence/inputs/README.md): Overpass snapshots, OSM and COD-AB municipal polygons, the Microsoft corridor lines and Overture places. Copy them into `local-data/raw/` to rerun without live endpoints. Queries and observation times are in [`evidence/queries/queries.md`](evidence/queries/queries.md).
 - Run scripts with `python -I` from the `research/` folder unless stated.
 - Raw inputs live in git-ignored `local-data/`. On a fresh clone, rebuild them from the URLs and checksums in [`evidence-manifest.csv`](evidence-manifest.csv).
 
@@ -22,6 +23,8 @@
 | Building permits ₱/m² | [`evidence/scripts/building_permits.py`](evidence/scripts/building_permits.py) | PSA `0022G4GBPC1` | Local table; cited figures in findings | Yes |
 | Store counts and brand comparison | `stores_poi.py`, `overture_corridor.py`, `brand_compare.py` | OSM 2026-11-02, Overture 2026-10-21.0 | `evidence/results/*` | Yes; Overture releases expire |
 | Terrain, land cover, flood shares | `corridor_layers.py`, `noah_flood_corridor.py` | Copernicus DEM, WorldCover, NOAH mirror | `evidence/results/*` | Yes |
+| Packed-input checks (Microsoft counts, directed connectivity, brand comparison) | [`evidence/scripts/pack_inputs.py`](evidence/scripts/pack_inputs.py), then `directed_connectivity.py` and `brand_compare.py` on the packed files | `evidence/inputs/` (OSM ways reduced to topology tags; 6 Overture name cells blanked) | Assertions pass; both results are identical | Yes, closeout pass |
+| 2012 JICA transcription checks | [`evidence/scripts/jica_transcription_check.py`](evidence/scripts/jica_transcription_check.py) | [`evidence/results/jica_2012_transcription.csv`](evidence/results/jica_2012_transcription.csv) | `evidence/results/jica_2012_transcription_check.txt`: 20 of 20 pass | Yes, closeout pass |
 
 ## Integrity and validation are different checks
 
@@ -42,4 +45,5 @@
 | Mapillary surface figures | File (906 MB) not retained; logged result only |
 | ohsome tag shares | Not rerun this pass; rerunnable |
 | First connectivity run | Snapshot not recorded; superseded |
-| 2012 JICA station counts | Need manual reading (B-14) |
+| Overture building counts | Extract not retained, and release 2026-10-21.0 will expire. Context only, not used for selection |
+| PSA-based figures from packed inputs alone | PSA responses not packed (terms unread, B-03); rerun the saved queries |

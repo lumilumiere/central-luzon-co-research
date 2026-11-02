@@ -10,7 +10,11 @@ Executive Order No. 2 (2016), §9 ([text](https://lawphil.net/executive/execord/
 - **Deemed denial:** failure to respond within the period counts as a denial.
 - **Channel:** eFOI at https://foi.gov.ph covers participating agencies. Others take requests through their FOI officers.
 
-Documented turnaround beyond the rule: **Not found**. Past eFOI records show AADT and route data being requested from transport agencies.
+**Documented turnaround:**
+- Agencies publish FOI summary reports with an "average processing time" column. The DICT 2018 and 2022 reports show the format, for example DICT 2018-Q1 at 1.00 day and NTC 2018-Q1 at 8.13 days.
+- Reports for the target agencies (PSA, DPWH, BIR, NAMRIA, LTFRB, LGUs) were searched for, and no suitable evidence was found ([closeout §5](../findings/closeout-partial-items.md#5-agency-request-procedures-and-turnaround)).
+- Plan on the 15-working-day rule, and up to 35 working days if extended (that figure is secondary).
+- Past eFOI records show AADT and route data being requested from transport agencies.
 
 ## Templates
 
@@ -62,6 +66,30 @@ Each template follows the same structure. Placeholders are in brackets.
 - **To:** vendor or data partnership, via Joshua.
 - **Specification:** visits per place or area per week, with methodology, panel size, geography, dates and licence.
 - **Terms to settle first:** Data Privacy Act basis, aggregation level, commercial-use terms, price.
+
+### T-09 Building reference sample (acquisition specification, not a request)
+
+- **Purpose:** measure omission and commission of Google, Microsoft, Overture and OSM footprints in the corridor. Today no corridor accuracy figure exists ([closeout §6](../findings/closeout-partial-items.md#6-building-quality--blocked-by-a-specific-external-dependency)).
+- **Design:**
+    - A stratified random sample of 200 m × 200 m cells, at least 30 per municipality, split across urban, peri-urban and rural cells.
+    - Every building in each cell is digitised on imagery dated within 12 months of the sample date.
+- **Needs:**
+    - Imagery whose licence permits digitising and keeping the derived footprints.
+    - Trained digitisers.
+    - A second digitiser on 10% of cells to measure agreement.
+- **Output:** a footprint layer with imagery source and date; precision, recall and F1 at IoU 0.5 by municipality and stratum.
+- **Alternative:** LGU assessor building data obtained by request (a variant of T-04).
+
+### T-10 Short traffic count survey (acquisition specification, needs a contract or partner)
+
+- **Purpose:** the smallest observed data that would support a SUMO calibration attempt ([closeout §1](../findings/closeout-partial-items.md#1-sumo-calibration-with-sparse-data--completed)).
+- **Design:**
+    - Classified video turning counts in 15-minute intervals.
+    - At 4–6 junctions or access points near the candidate site, including MacArthur Highway and the Dau and Sta. Ines access roads.
+    - Two weekdays and one weekend day, 06:00–22:00.
+    - At least two travel-time runs per peak.
+- **Output:** counts by class, approach and turn; run times; survey dates; method notes.
+- **Note:** this needs spending or a partner, so Joshua decides. The 2012 JICA counts cannot substitute for it.
 
 ## Acquisition specification summary
 

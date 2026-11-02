@@ -4,7 +4,7 @@
 
 **Problem:** the after check (AFTER-01) needs observations from stores after they open. The stand-in Joshua chose, `05` row 6.1, has no usable data (see [`franchise-and-foot-traffic.md`](franchise-and-foot-traffic.md)).
 
-**Result:** no usable public source of actual store sales or visits in the corridor was established.
+**Result:** no suitable public source of actual store sales or visits in the corridor was found in the searches performed. That is not a claim that none exists.
 
 ## Candidates checked
 

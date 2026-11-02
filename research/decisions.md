@@ -55,7 +55,7 @@ Nothing here rewrites the freeze or the decision log. `03-poc-decision-freeze.md
 ### RD-003 — Population totals and distribution
 
 - **Chosen for evaluation:** PSA 2024 municipal and barangay counts for totals. R2025A 2024 only to distribute population inside a barangay, rescaled to PSA totals. PSA 2020 as a check year.
-- **Why:** barangay misallocation is 2.3% in Bamban, 1.6% in Capas and 4.7% in Mabalacat for R2025A, against 16.0%, 19.3% and 58.9% for id 6316.
+- **Why:** barangay share mismatch (aggregate shares, not individual locations) is 2.3% in Bamban, 1.6% in Capas and 4.7% in Mabalacat for R2025A, against 16.0%, 19.3% and 58.9% for id 6316. Recomputed on 2026-11-02.
 - **Limit:** R2025A is alpha and used the 2020 barangay census as input. Its fit is not independent validation.
 - **Fallback:** Google building-count shares, which do not use census inputs (at 0.65: Bamban 8.6%, Capas 10.1%, Mabalacat 11.0%). Microsoft is lower in Capas (6.6%) and Bamban (7.4%) but higher in Mabalacat (18.8%), so Google is chosen for its smaller worst case, and because it has confidence values.
 - **Would change this:** an R2025A revision, or a local check that favours another layer.
@@ -63,7 +63,7 @@ Nothing here rewrites the freeze or the decision log. `03-poc-decision-freeze.md
 ### RD-004 — Checklist raster
 
 - **Chosen:** classify WorldPop id 6316 as unsuitable for zone-level use, and keep it only as a comparator. This does not change the checklist row, which stays as Joshua wrote it.
-- **Why:** the combined gate is not met on COD-AB polygons (0.691 of the projection sum, or 0.712 all-touched). Mabalacat stays 0.549–0.724 of the census in all four tested cases. Barangay misallocation in Mabalacat is 58.9%.
+- **Why:** the combined gate is not met on COD-AB polygons (0.691 of the projection sum, or 0.712 all-touched). Mabalacat stays 0.549–0.724 of the census in all four tested cases. Barangay share mismatch in Mabalacat is 58.9% (aggregate shares). Id 49861 on OSM polygons, previously not performed, gives 0.792–0.804 of the projection sum: the same pattern.
 - **Limit:** the cause is Not found. Bamban and Capas stay within 20% as diagnostics.
 
 ### RD-005 — Buildings
@@ -123,3 +123,48 @@ Nothing here rewrites the freeze or the decision log. `03-poc-decision-freeze.md
 ## Name-safety
 
 Findings use "Central Luzon industrial district POC". The development authority and project brand are not named, following the notes' name-safe rule. Publisher names of datasets are kept, as citations require.
+
+## Completion pass, 2026-11-02 (AI-selected, not Joshua-approved)
+
+### RD-015 — Requirement scope categories
+
+- **Chosen:** requirements are tracked in three groups in [`requirements-checklist.md`](requirements-checklist.md): current franchise scope, shared baseline, and infrastructure or longer-term.
+- **Effect:** the longer-term dimensions (environmental, ecological, societal, construction-phase) are researched as data sources only. They do not become scored features.
+- **Why:** `03` §7 and `08` answer 8 keep them as placeholders.
+
+### RD-016 — Working franchise financial interpretation
+
+- **Chosen for evaluation:**
+    - Store-level franchisee view.
+    - Measures: investment, four-wall EBITDA, payback, break-even sales, NPV and ROI over the agreement term, tested at 5 and 10 years.
+    - A private discount rate built from a risk-free rate plus equity premium, with Damodaran January 2026 data for the Philippines as the premium reference.
+- **Rejected:** the 10% social discount rate as the franchise rate (a public-project hurdle); building-permit ₱/m² as fit-out cost (declared building values only).
+- **Limits:** Joshua's definition (`08` question 2) overrides this. No rate is locked, because a dated official yield is Not found.
+- Details: [`findings/model-inputs-and-financial.md`](findings/model-inputs-and-financial.md).
+
+### RD-017 — D-009 recommendations
+
+- **Recommended:**
+    - Replace the 2–5 km buffer with an influence rule.
+    - Revise "coverage ≥95%" into separate extent and completeness measures.
+    - Revise "≤1 major component" into a directed strong-component test.
+    - Replace the 20% projection check with census rescaling plus barangay share tests.
+- **Status:** recommendations only. D-009 says these are Joshua's working assumptions, and the checklist is unchanged.
+- Evidence: [`findings/validation-standards.md`](findings/validation-standards.md).
+
+### RD-018 — Post-opening data
+
+- **Chosen:** no public source is treated as observed sales or visits. Proxies stay labelled as proxies, and synthetic data is never used as validation.
+- **Prepared:** a minimum schema and request templates, unsent.
+- **Effect:** AFTER-01 functions remain impossible until company or purchased data exists.
+
+### RD-019 — Reproduction environment
+
+- **Chosen:** a fresh Python 3.14 environment with pinned packages ([`evidence/requirements-lock.txt`](evidence/requirements-lock.txt)).
+- **Reproduced:** all material population, barangay, boundary and footprint calculations from retained files, with results in `evidence/results/reproduction_*`.
+- **Integrity versus validation:** a matching file hash is an integrity check only. The calculations were re-executed to check them.
+
+### RD-020 — Directed routability diagnostic
+
+- **Chosen:** report strong connectivity on a directed graph from OSM `oneway` tags, and stop reporting weak connectivity as routability.
+- **Why:** weak connectivity (98.8% of ways) overstated what a router can use (96.3% of nodes in the largest strong component).

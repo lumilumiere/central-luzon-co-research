@@ -1,0 +1,12 @@
+metric,value
+osm_snapshot,2026-11-02T08:01:36Z
+ways,13386
+nodes,86348
+directed_edges,176628
+oneway_tag_counts,"{'none': 11505, 'yes': 1778, 'no': 102, 'alternating': 1}"
+weak_components,39
+largest_weak_share_of_nodes,0.9695
+strong_components,670
+largest_strong_share_of_nodes,0.9625
+edges_inside_largest_strong,0.9671
+strong_components_size_ge_10,28

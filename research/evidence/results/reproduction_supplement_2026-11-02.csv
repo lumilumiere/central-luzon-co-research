@@ -1,0 +1,29 @@
+product,metric,unit,value
+R2025A_2020,national sum,persons,111467164
+R2025A_2020,national factor vs census 2020,ratio,1.0223
+R2025A_2020,COD pixel-centre Mabalacat,persons,296492
+R2025A_2020,"Mabalacat ratio to census, then divided by national factor",ratio,1.0111 then 0.9890
+R2025A_2020,COD pixel-centre Bamban,persons,80015
+R2025A_2020,"Bamban ratio to census, then divided by national factor",ratio,1.0224 then 1.0001
+R2025A_2020,COD pixel-centre Capas,persons,159555
+R2025A_2020,"Capas ratio to census, then divided by national factor",ratio,1.0224 then 1.0001
+R2025A_2020,COD pixel-centre Angeles,persons,476635
+R2025A_2020,"Angeles ratio to census, then divided by national factor",ratio,1.0296 then 1.0071
+R2025A_2020,"Mabalacat+Angeles ratio, then divided by national factor",ratio,1.0224 then 1.0001
+id49861_2020,national sum,persons,95548804
+id49861_2020,COD pixel-centre Mabalacat,persons,160557
+id49861_2020,COD pixel-centre Bamban,persons,66035
+id49861_2020,COD pixel-centre Capas,persons,132437
+id49861_2020,COD pixel-centre combined / projection 2020,ratio,0.69
+id49861_2020,COD all-touched Mabalacat,persons,165437
+id49861_2020,COD all-touched Bamban,persons,67290
+id49861_2020,COD all-touched Capas,persons,135245
+id49861_2020,COD all-touched combined / projection 2020,ratio,0.707
+id49861_2020,OSM pixel-centre Mabalacat,persons,206427
+id49861_2020,OSM pixel-centre Bamban,persons,70772
+id49861_2020,OSM pixel-centre Capas,persons,134595
+id49861_2020,OSM pixel-centre combined / projection 2020,ratio,0.792
+id49861_2020,OSM all-touched Mabalacat,persons,210104
+id49861_2020,OSM all-touched Bamban,persons,71645
+id49861_2020,OSM all-touched Capas,persons,136529
+id49861_2020,OSM all-touched combined / projection 2020,ratio,0.804

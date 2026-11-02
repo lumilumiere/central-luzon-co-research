@@ -45,6 +45,16 @@ Building use and floor area: **Not found** as an open source. PSA permits give m
 
 Gevaert et al. 2024 audits global building datasets in Tanzania and the Philippines: https://research.utwente.nl/en/publications/auditing-geospatial-datasets-for-biases-using-global-building-dat/. Only the abstract was read, so its numbers are Not read. It is not corridor validation.
 
+Sirko et al. 2021 (https://arxiv.org/pdf/2107.12283, primary read) describes the Open Buildings method:
+- Confidence thresholds are set per S2 cell to target 80%, 85% and 90% precision at 0.5 IoU.
+- Confidence filtering raises precision with an unknown effect on recall.
+- Some low scores come from large buildings split into several detections.
+- Its headline evaluation is for Africa.
+
+A secondary study reports that Microsoft and Google both claim roughly 70% recall: https://drops.dagstuhl.de/storage/00lipics/lipics-vol277-giscience2023/LIPIcs.GIScience.2023.35/LIPIcs.GIScience.2023.35.pdf
+
+**Counts are not accuracy.** Google's higher count could reflect more detections, false positives or splitting, so no source is ranked. Measuring corridor accuracy needs a reference sample, recommended in [`validation-standards.md`](validation-standards.md).
+
 ## Barangay use
 
 Building-count shares are tested in `population.md`.

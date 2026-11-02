@@ -27,11 +27,19 @@ Drivable length: Capas 706.2 km, Bamban 322.2 km, Mabalacat 697.0 km.
 
 ## Routability
 
-**Not demonstrated.** Overpass 2026-11-02T04:50:34Z, bbox 15.16,120.24,15.43,120.64, drivable classes, ways sharing any node:
+**Not demonstrated** in the routing sense. Two topology diagnostics exist; neither builds SUMO.
 
-- 13,386 ways, 39 groups, 13,226 ways (98.8%) in the largest.
-- This ignores turn restrictions and one-way direction, and it does not build SUMO.
-- The first run (13,384 ways) has no recorded snapshot and is Unverified.
+**Undirected (shared nodes):** Overpass 2026-11-02T04:50:34Z, bbox 15.16,120.24,15.43,120.64, drivable classes. 13,386 ways, 39 groups, 13,226 ways (98.8%) in the largest. This ignores one-way direction. The first run (13,384 ways) has no recorded snapshot and is Unverified.
+
+**Directed (new):** Overpass 2026-11-02T08:01:36Z, same bbox and classes, with `oneway` tags, roundabouts and motorways treated as one-way.
+- Script: [`../evidence/scripts/directed_connectivity.py`](../evidence/scripts/directed_connectivity.py). Results: [`../evidence/results/directed_connectivity_2026-11-02.csv`](../evidence/results/directed_connectivity_2026-11-02.csv).
+- 86,348 nodes and 176,628 directed edges.
+- Largest strongly connected component: **96.3% of nodes and 96.7% of directed edges**.
+- 670 strong components in total, 28 of them with 10 or more nodes.
+- Largest weak component: 97.0% of nodes.
+- Not modelled: turn restrictions, access restrictions and bounding-box edge effects.
+- Tag reading: 1,778 ways tagged `oneway=yes`, 11,505 untagged (treated as two-way).
+- **Reading:** a directed graph from this extract would need repair or trimming of about 3–4% of nodes before routing. Any study-area rule should use strong, not weak, connectivity.
 
 ## Surface add-ons
 

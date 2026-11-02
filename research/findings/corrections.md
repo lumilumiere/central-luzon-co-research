@@ -23,3 +23,10 @@
 | 17 | Checklist RDO 21B for Mabalacat treated as given | Secondary sources point to RDO 21A; needs official confirmation |
 | 18 | Register held in chat only | Superseded by JD-01; `data-source-register.csv` is now authoritative |
 | 19 | Google counts "the best fit that does not use census data" | Wrong for Capas and Bamban, where Microsoft is lower. Google has the smaller worst case only |
+| 20 | "Misallocates" or "misplaces people" wording for the barangay test | It is an aggregate share mismatch. It does not establish where individual people live |
+| 21 | Weak connectivity (98.8% of ways) described as the connectivity result | Directed test: largest strong component 96.3% of nodes and 96.7% of edges, with 670 strong components |
+| 22 | Permit value unit "inferred, unconfirmed" | Supported by PSA's April 2024 release (value in thousand pesos), seen via excerpt; not read from table metadata |
+| 23 | R2025A all-touched and id 49861 on OSM "not performed" | Performed 2026-11-02 (see `population.md`) |
+| 24 | HDX general terms "unread" | Read at docs.humdata.org: dataset licences govern use, and personal data is prohibited |
+| 25 | Checklist row 2.6 "≤1 major disconnected component" treated as a test of the graph | It is an unsourced assumption; see `validation-standards.md` |
+| 26 | Reproduction script matched barangay names across municipalities | Bug found by the sum check; names repeat, so matching is now per municipality. Published figures were unaffected |

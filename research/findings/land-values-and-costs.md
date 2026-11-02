@@ -39,7 +39,7 @@ This gives municipal development activity and a local cost prior. Method: `evide
 | 2022 | Mabalacat | 743 | 179,876 | 11,522 | 67 | 12,185 |
 
 - **Method:** value divided by floor area.
-- **Unit:** value is inferred as thousand pesos. The px unit request returned 404, so this inference is unconfirmed.
+- **Unit:** value treated as thousand pesos. The px unit request returned 404. PSA's own April 2024 national release reports value as "PhP 38,999,355.17 thousand" (about ₱39.0 billion), seen via a search excerpt of https://psa.gov.ph/system/files/isd/SR%20ON%20BP%20APRIL%202024.pdf. That supports the convention, and the derived ₱/m² figures are consistent with a separate Tarlac release (about ₱14,952 per m², November 2024, also via excerpt). The unit is supported but not read from table metadata.
 - **Limits:** these are declared permit values, not audited costs or completions. Small municipal samples swing widely by year.
 - **Not a franchise fit-out cost.**
 

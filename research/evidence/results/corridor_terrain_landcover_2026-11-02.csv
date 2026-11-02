@@ -1,0 +1,7 @@
+unit,cod_pcode,metric,valid_cells,min_or_dict,p50,p95,max
+Mabalacat City,PH0305409,elevation_m,106369,54.5,99.4,423.5,673.9
+Bamban,PH0306902,elevation_m,226186,34.5,315.7,799.4,1101.0
+Capas,PH0306904,elevation_m,486977,33.5,188.1,505.8,793.1
+Mabalacat City,PH0305409,worldcover_pct,1181579,"{'tree': 38.3, 'shrub': 0.0, 'grass': 23.5, 'crop': 17.9, 'built': 18.4, 'bare': 1.6, 'water': 0.2, 'wetland': 0.0}"
+Bamban,PH0306902,worldcover_pct,2513472,"{'tree': 72.7, 'shrub': 0.0, 'grass': 12.8, 'crop': 9.7, 'built': 3.0, 'bare': 1.2, 'water': 0.7, 'wetland': 0.0}"
+Capas,PH0306904,worldcover_pct,5410913,"{'tree': 55.8, 'shrub': 0.0, 'grass': 20.4, 'crop': 17.8, 'built': 3.0, 'bare': 2.2, 'water': 0.7, 'wetland': 0.0}"

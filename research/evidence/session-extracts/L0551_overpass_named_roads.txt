@@ -1,0 +1,44 @@
+# Tool output extracted from the research session log, line 551, timestamp 2026-11-01T18:05:19.715Z. Conversation text excluded. Token-like query values redacted.
+Data in this repository has been licensed by Microsoft under CLDA Permissive 2.0.
+---
+3:Bing Maps is releasing open building footprints around the world. We have detected **1.4B** buildings from Bing Maps imagery between 2014 and 2024 including Maxar, Airbus, and IGN France imagery. The data is freely available for download 
+5:## Updates
+6:* 2026-08-13 - Refreshed the global dataset from the current source of truth. Tile coverage is unchanged at **30,340** tiles across **225** regions; **1,945** tiles were updated. [dataset-links.csv](https://bfppub.blob.core.windows.net/%2
+7:* 2026-07-24 - Added **431K** building footprints and **431K** height estimates derived from Vexcel imagery in 2025. Largest contributions are to the United States (343K), Norway (50K), and Italy (33K). [dataset-links.csv](https://bfppub.
+8:* 2026-07-24 - Dataset hosting is moving! You will notice `dataset-links.csv` has a new url https://bfppub.blob.core.windows.net/%24web/2026-07-24/dataset-links.csv. All links are updated from https://minedbuildings.**z5.web**.core.window
+9:* 2026-02-03 - Added **1.2M** building footprints and **1.2M** height estimates derived from Vexcel imagery between 2021 and 2025. All contributions are from the United States (1.2M). [dataset-links.csv](https://bfppub.blob.core.windows.n
+10:* 2026-01-27 - Added **1.0M** building footprints and **1.0M** height estimates derived from Vexcel imagery between 2021 and 2025. All contributions are from the United States (1.1M). [dataset-links.csv](https://bfppub.blob.core.windows.
+11:* 2026-01-23 - Added **1.0M** building footprints and **1.0M** height estimates derived from Vexcel imagery between 2021 and 2025. All contributions are from the United States (1.1M). [dataset-links.csv](https://bfppub.blob.core.windows.
+12:* 2026-01-18 - Added **1.9M** building footprints and **1.9M** height estimates derived from Maxar and Vexcel imagery between 2020 and 2025. All contributions are from the United States (1.1M). [dataset-links.csv](https://bfppub.blob.cor
+13:* 2026-01-09 - Added **3.5M** building footprints and **3.4M** height estimates derived from Maxar and Vexcel imagery between 2020 and 2025. Largest contributions are to Belgium (1.8M), Netherlands (1.6M), and Germany (1.1M). [dataset-li
+14:* 2025-02-28 - Added **18M** building footprints and **4.2M** height estimates derived from Maxar and Vexcel imagery between 2017 and 2024. Largest contributions are to Turkey (5.8M), Greece (6M), and France (3.8M). [dataset-links.csv](h
+15:* 2025-02-03 - Added **7.4M** building footprints and **2.4M** height estimates derived from from Maxar and Vexcel imagery between 2020 and 2024. The largest contributions are to France (5.8M) and the United States (1.2M). dataset-links.
+16:* 2025-01-06 - Added **9.6M** building footprint edits derived from Maxar imagery between 2021 and 2024. Largest contributions are to Chile (3.4M), Norway (2M), Brazil (2M), and Sweden (1.5M). No new height estimates.  dataset-links.csv 
+17:* 2024-12-02 - Added **12M** building footprint edits and **554k** height estimates derived from Maxar and Vexcel imagery between 2018 and 2024. The largest contributions are to Sudan (5.5M), Ethiopia (3.3M), and Saudi Arabia (590k). dat
+18:* 2024-11-07 - Dataset hosting is moving! You will notice `dataset-links.csv` has a new url https://minedbuildings.z5.web.core.windows.net/global-buildings/dataset-links.csv. All links are updated from https://minedbuildings.**blob**.cor
+19:* 2024-11-01 - Added **12M** building footprint edits and **3.2M** height estimates derived from Maxar and Vexcel imagery between 2019 and 2024. The largest contributions are to the US (3.2M), Argentina (2.8M), and Iran (2.4M). dataset-l
+20:* 2024-09-25 - Added **4.7M** building footprint edits and **4.4M** height estimates derived from Maxar and Vexcel imagery between 2019 and 2024. The largest contributions are to the US (2.6M) and UK (1.5M). dataset-links.csv updated on 
+21:* 2024-08-27 - Added **4.8M** building footprint edits and **2.1M** height estimates derived from Vexcel and Maxar imagery between 2019 and 2024. The largest contributions are for the United States (1.7M), South Africa (1.5M), and Brazil
+22:* 2024-07-30 - Added  **1.6M** building footprint edits and **1.5M** height estimates derived from Maxar and Vexcel imagery between 2020 and 2024. The largest contribution was in the United States. dataset-links.csv updated on 6 August 2
+23:* 2024-06-25 - Added **380K** building footprint edits and **364K** height estimates derived from Maxar and Vexcel imagery between 2020 and 2024. The largest contribution was in the United States. dataset-links.csv updated on 27 June 202
+24:* 2024-06-03 - Added **637K** building footprint edits and **627K** height estimated derived from Maxar and Vexcel imagery between 2020 and 2024. Primary contribution is in the United States (631K). dataset-links.csv was updated on 3 Jun
+25:* 2024-05-01 - Added **596K** building footprint edits and **125K** height estimated derived from Maxar and Vexcel imagery between 2017 and 2023. Primary contributions are in France (525K) and Germany (44K). dataset-links.csv was updated
+26:* 2024-03-26 - Added **128M** building footprint edits and **3.5M** height estimated derived from Maxar and Vexcel imagery between 2019 and 2023. Primary contributions are in India (110M) and Nepal (7M). dataset-links.csv was updated on 
+31:* 2023-10-20 - Added **95M** building footprint edits and **9M** height estimates derived from Maxar and Vexcel imagery between 2017 and 2023. Updated structures in 52 
+33:* 2023-10-02 - Added **77M** buildings footprint edits derived from Maxar and Vexcel imagery between 2018 and 2023. Updated structures in 35 countries with the top 3 contributions in India (24M), Bangladesh (19M), and Pakistan (14M). 
+34:* 2023-09-05 - Added **38M** building footprint edits and **21M** height estimates derived from Vexcel and Maxar imagery from 2018 to 2023. Updated structures in 22 countries primarily in the United States (13M), United Kingdom (7.6M), a
+35:* 2023-08-22 - Added **730K** buildings from Vexcel imagery between 2020 and 2022. The largest updates are for Spain (369K), Austria (196K), and Germany (69K). 
+37:* 2023-06-05 - Combining [all building footprint releases](#will-there-be-more-data-coming-for-other-geographies) into one distribution. Total footprints: **1.2B**. Footprints with height: **174M**. Updated coverage map and associated fe
+38:* 2023-05-31 - added **49M** updated footprints and **10M** height attributes from Vexcel and Maxar imagery. Biggest contributions are Nigeria (18M), United States (9M), and Burkina Faso (7M).
+42:* 2022-11-16 - Added **40M** new and updated buildings across 46 geographies derived from Bing imagery including Maxar, IGN-France, and AirBus between 2015 and 2022. The largest updates are for Pakistan (16M), Turkey (13M), Afghanistan (
+https://overpass-api.de/api/interpreter 200 162117
+{'timestamp_osm_base': '2026-11-01T18:02:59Z', 'copyright': 'The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.'}
+[(('MacArthur Highway', 'trunk', '2'), 188), (('Subic-Clark-Tarlac Expressway', 'motorway', 'E1'), 118), (('Subic-Clark-Tarlac Expressway', 'motorway', 'E4'), 69), (('SCTEX Clark Road', 'primary', None), 8), (('Porac - Sapang Uwak - SCTEX Exit', 'secondary', None), 5), (('Old McArthur Avenue', 'unclassified', None), 3), (('PTT SCTEX', 'services', None), 1)]
+https://overpass-api.de/api/interpreter 200 2051
+{'timestamp_osm_base': '2026-11-01T18:04:02Z', 'copyright': 'The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.'}
+Traceback (most recent call last):
+  File "<local-path>", line 19, in <module>
+    t=e['tags']; ls=[LineString([(p['lon'],p['lat']) for p in m['geometry']]) for m in e['members'] if m['type']=='way' and m.get('geometry') and m['role'] in('outer','')]
+                                                                                       ~^^^^^^^^^^^
+KeyError: 'members'
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

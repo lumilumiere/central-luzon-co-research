@@ -1,0 +1,57 @@
+# Tool output extracted from the research session log, line 326, timestamp 2026-11-01T17:30:28.851Z. Conversation text excluded. Token-like query values redacted.
+wp 200 188757526 296.562081s
+EPSG:4326 (1642, 32) ['adm3_name', 'adm3_name1', 'adm3_name2', 'adm3_name3', 'adm3_pcode', 'adm2_name', 'adm2_name1', 'adm2_name2', 'adm2_name3', 'adm2_pcode', 'adm1_name', 'adm1_name1', 'adm1_name2', 'adm1_name3', 'adm1_pcode', 'adm0_name', 'adm0_name1', 'adm0_name2', 'adm0_name3', 'adm0_pcode', 'valid_on', 'valid_to', 'area_sqkm', 'version', 'lang', 'lang1', 'lang2', 'lang3', 'adm3_ref_n', 'center_lat', 'center_lon', 'geometry']
+invalid national: 0
+                                   294                         309                         311
+adm3_name               Mabalacat City                      Bamban                       Capas
+adm3_name1                        None                        None                        None
+adm3_name2                        None                        None                        None
+adm3_name3                        None                        None                        None
+adm3_pcode                   PH0305409                   PH0306902                   PH0306904
+adm2_name                     Pampanga                      Tarlac                      Tarlac
+adm2_name1                        None                        None                        None
+adm2_name2                        None                        None                        None
+adm2_name3                        None                        None                        None
+adm2_pcode                     PH03054                     PH03069                     PH03069
+adm1_name   Region III (Central Luzon)  Region III (Central Luzon)  Region III (Central Luzon)
+adm1_name1                        None                        None                        None
+adm1_name2                        None                        None                        None
+adm1_name3                        None                        None                        None
+adm1_pcode                        PH03                        PH03                        PH03
+adm0_name                  Philippines                 Philippines                 Philippines
+adm0_name1                        None                        None                        None
+adm0_name2                        None                        None                        None
+adm0_name3                        None                        None                        None
+adm0_pcode                          PH                          PH                          PH
+valid_on           2025-02-13 00:00:00         2025-02-13 00:00:00         2025-02-13 00:00:00
+valid_to                           NaT                         NaT                         NaT
+area_sqkm                    97.548023                  207.478379                  446.478619
+version                            v03                         v03                         v03
+lang                                en                          en                          en
+lang1                             None                        None                        None
+lang2                             None                        None                        None
+lang3                             None                        None                        None
+adm3_ref_n              Mabalacat City                      Bamban                       Capas
+center_lat                   15.219013                   15.247778                   15.329914
+center_lon                  120.527423                  120.455475                  120.443924
+valid [True, True, True] parts [1, 1, 1] verts [3525, 2712, 205]
+utm km2 [97.637, 207.694, 446.955] names ['Mabalacat City', 'Bamban', 'Capas']
+Mabalacat City Bamban shared boundary km 25.62 overlap km2 0.0 gap_dist_m 0.0
+Mabalacat City Capas shared boundary km 0.0 overlap km2 0.0 gap_dist_m 4341.2
+Bamban Capas shared boundary km 32.39 overlap km2 0.0 gap_dist_m 0.0
+union type Polygon parts 1 km2 752.29 holes 0
+bbox wgs84 [120.24131, 15.16679, 120.63296, 15.42471]
+per muni {'Mabalacat City': [120.4471, 15.1704, 120.633, 15.2677], 'Bamban': [120.3362, 15.1668, 120.6166, 15.3264], 'Capas': [120.2413, 15.2351, 120.6155, 15.4247]}
+Mabalacat City COD vs gb_simpl: IoU 0.9848 km2 diff -0.013
+Bamban COD vs gb_simpl: IoU 0.9942 km2 diff 0.296
+Capas COD vs gb_simpl: IoU 0.9965 km2 diff -0.165
+neighbours [('Angeles City', 'Pampanga'), ('Mabalacat City', 'Pampanga'), ('Magalang', 'Pampanga'), ('Mexico', 'Pampanga'), ('Porac', 'Pampanga'), ('Bamban', 'Tarlac'), ('Capas', 'Tarlac'), ('Concepcion', 'Tarlac'), ('City of Tarlac (Capital)', 'Tarlac'), ('San Jose', 'Tarlac'), ('Botolan', 'Zambales')]
+{'driver': 'GTiff', 'dtype': 'float32', 'nodata': -99999.0, 'width': 11613, 'height': 19781, 'count': 1, 'crs': CRS.from_wkt('GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AXIS["Latitude",NORTH],AXIS["Longitude",EAST],AUTHORITY["EPSG","4326"]]'), 'transform': Affine(0.0008333333299750276, 0.0, 116.927916214,
+       0.0, -0.0008333333300136493, 21.070416784), 'blockxsize': 11613, 'blockysize': 1, 'tiled': False, 'compress': 'lzw', 'interleave': 'band'}
+BoundingBox(left=116.927916214, bottom=4.586250183000001, right=126.605416175, top=21.070416784) (0.0008333333299750276, 0.0008333333300136493) {'AREA_OR_POINT': 'Area'} Compression.lzw ovr []
+Mabalacat City wp sum 161117 cells 11802 cellmax 1204.78 cells>0 11802
+Bamban wp sum 66328 cells 25121 cellmax 160.51 cells>0 25121
+Capas wp sum 132000 cells 53947 cellmax 89.81 cells>0 53947
+total 359445
+ca4fda6cd491b1f15b399c9412fbdc19
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

@@ -1,0 +1,4 @@
+unit,release,buildings,by_source,with_height,with_floors,with_subtype,with_class
+Mabalacat City,2026-10-21.0,94683,"{'OpenStreetMap': 76784, 'Google Open Buildings': 15693, 'Microsoft ML Buildings': 2206}",6,225,4844,4802
+Bamban,2026-10-21.0,40767,"{'OpenStreetMap': 33668, 'Google Open Buildings': 6350, 'Microsoft ML Buildings': 749}",0,16,464,453
+Capas,2026-10-21.0,77861,"{'OpenStreetMap': 64524, 'Google Open Buildings': 11543, 'Microsoft ML Buildings': 1794}",0,15,493,469

@@ -1,0 +1,21 @@
+sheet_column,group,column_label,value
+0,,Country or Territory Name,Philippines
+1,,Continent,Asia
+2,,ISOAlpha,PHL
+3,,ISO Numeric,608
+4,First timepoint,Highest Admin Level Used,3
+5,First timepoint,Number of Units,41954
+6,First timepoint,Population Year,2010
+7,First timepoint,Population Source Type,Final Census
+8,First timepoint,Population Source Citation,"Philippines Statistics Authority, 2010 Census of Population, Total Population by Province, City, Municipality and Barangay: as of May 1, 2010, Published 10/18/2012, http://www.census.gov.ph/data/census2007/index.html, Accessed 7/18/2014. "
+9,First timepoint,Sex Variable  Year ,2010
+10,First timepoint,Sex Variable Type,Final Census
+11,First timepoint,Age Variable Year,2010
+12,First timepoint,Age Variable Type,Final Census
+13,Second timepoint,Highest Admin Level Used,4
+14,Second timepoint,Number of Units,42058
+15,Second timepoint,Population Year,2020
+16,Second timepoint,Population Source Type,Census
+17,Second timepoint,Population Source Citation,"National Statistics Office of the Philippines, https://psa.gov.ph/content/2020-census-population-and-housing-2020-cph-population-counts-declared-official-president"
+22,Nested,Number of Units,38911
+23,Nested,Modelled with second timepoint only.,[YES]

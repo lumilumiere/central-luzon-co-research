@@ -1,0 +1,42 @@
+adm columns ['adm3_name', 'adm3_name1', 'adm3_name2', 'adm3_name3', 'adm3_pcode', 'adm2_name', 'adm2_name1', 'adm2_name2', 'adm2_name3', 'adm2_pcode', 'adm1_name', 'adm1_name1']
+[['Angeles City', 'PH0305401', 'Pampanga', 'Region III (Central Luzon)', 121.02899148]]
+adm2 members Pampanga ['Angeles City', 'Apalit', 'Arayat', 'Bacolor', 'Candaba', 'City of San Fernando (Capital)', 'Floridablanca', 'Guagua', 'Lubao', 'Mabalacat City', 'Macabebe', 'Magalang', 'Masantol', 'Mexico', 'Minalin', 'Porac', 'San Luis', 'San Simon', 
+('id6316_2020_unconstrained', 'COD', 'Mabalacat', 'pixel_centre', 161117, 11802)
+('id6316_2020_unconstrained', 'COD', 'Mabalacat', 'all_touched', 168365, 12281)
+('id6316_2020_unconstrained', 'COD', 'Bamban', 'pixel_centre', 66328, 25121)
+('id6316_2020_unconstrained', 'COD', 'Bamban', 'all_touched', 67636, 25697)
+('id6316_2020_unconstrained', 'COD', 'Capas', 'pixel_centre', 132000, 53947)
+('id6316_2020_unconstrained', 'COD', 'Capas', 'all_touched', 134184, 54669)
+('id6316_2020_unconstrained', 'OSM', 'Mabalacat', 'pixel_centre', 209274, 18095)
+('id6316_2020_unconstrained', 'OSM', 'Mabalacat', 'all_touched', 212208, 18478)
+('id6316_2020_unconstrained', 'OSM', 'Bamban', 'pixel_centre', 70807, 21443)
+('id6316_2020_unconstrained', 'OSM', 'Bamban', 'all_touched', 72032, 21986)
+('id6316_2020_unconstrained', 'OSM', 'Capas', 'pixel_centre', 134291, 53214)
+('id6316_2020_unconstrained', 'OSM', 'Capas', 'all_touched', 135764, 53910)
+('id6316_2020_unconstrained', 'COD', 'Angeles', 'pixel_centre', 247647, 14638)
+('id6316_2020_unconstrained', 'COD', 'Angeles', 'all_touched', 256249, 15105)
+('id6316_2020_unconstrained', 'COD_adm2', 'Tarlac', 'pixel_centre', 1361480, 359754)
+('id6316_2020_unconstrained', 'COD_adm2', 'Pampanga', 'pixel_centre', 2637218, 247704)
+('id6316_2020_unconstrained', 'COD_adm1', 'RegionIII', 'pixel_centre', 11483752, 2556027)
+national id6316_2020_unconstrained 110194183
+Traceback (most recent call last):
+  File "rasterio/_base.pyx", line 322, in rasterio._base.DatasetBase.__init__
+  File "rasterio/_base.pyx", line 234, in rasterio._base.open_dataset
+    return exc_wrap_pointer(hds)
+  File "rasterio/_err.pyx", line 359, in rasterio._err.exc_wrap_pointer
+rasterio._err.CPLE_AppDefinedError: Range downloading not supported by this server!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER1~1\AppData\Local\Temp\claude\D--Orca-Workspace-geoteron-ai-research-mermaid\294a92cd-71e2-40a5-8157-8da51c387d28\scratchpad\z.py", line 25, in <module>
+    with rasterio.open(p) as r:
+         ~~~~~~~~~~~~~^^^
+  File "C:\Users\USER1~1\AppData\Local\Temp\claude\D--Orca-Workspace-geoteron-ai-research-mermaid\294a92cd-71e2-40a5-8157-8da51c387d28\scratchpad\venv\Lib\site-packages\rasterio\env.py", line 464, in wrapper
+    return f(*args, **kwds)
+  File "C:\Users\USER1~1\AppData\Local\Temp\claude\D--Orca-Workspace-geoteron-ai-research-mermaid\294a92cd-71e2-40a5-8157-8da51c387d28\scratchpad\venv\Lib\site-packages\rasterio\__init__.py", line 379, in open
+    dataset = DatasetReader(path, driver=driver, sharing=sharing, thread_safe=thread_safe, **kwargs)
+  File "rasterio/_base.pyx", line 331, in rasterio._base.DatasetBase.__init__
+rasterio.errors.RasterioIOError: Range downloading not supported by this server!
+
+[exited with code 0]

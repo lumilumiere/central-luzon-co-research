@@ -1,0 +1,2 @@
+# Keep evidence byte-exact so committed files match evidence-manifest.csv hashes.
+* -text

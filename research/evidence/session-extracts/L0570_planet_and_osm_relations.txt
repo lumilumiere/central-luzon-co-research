@@ -1,0 +1,76 @@
+# Tool output extracted from the research session log, line 570, timestamp 2026-11-01T18:06:42.890Z. Conversation text excluded. Token-like query values redacted.
+title : Philippines: Planet Road Surface, Width, and Passability Data
+dataset_source : HeiGIT
+organization : HeiGIT (Heidelberg Institute for Geoinformation Technology)
+dataset_date : [2020-06-01T00:00:00 TO 2024-12-31T23:59:59]
+last_modified : 2026-03-02T10:30:19.919721
+license_id : hdx-other
+license_title : Other
+license_other : Non-commercial use only. Contains derivatives of PlanetScope imagery. Redistribution subject to Planet Labs PBC licensing terms.
+caveats : None
+data_update_frequency : 365
+methodology_other : Dataset generated using deep learning on PlanetScope imagery to classify road surface, width, and humanitarian passability.
+notes : This dataset provides AI-derived road surface type, road width, road surface change
+(unpaved to paved), and a Humanitarian Passability Index (HPI) using
+PlanetScope satellite imagery (2020 and 2024).
+
+The analysis focuses on arterial roads classified in OSM as motorway, trunk,
+primary, and secondary, including their link classes. These road types form
+the backbone of long-distance, high-capacity transportation and national connectivity.
+
+For more details on methods:
+https://arxiv.org/abs/2512.04092
+
+
+Relationship to the Previous Mapillary-Based Dataset
+
+HeiGIT previously released a global dataset based on Mapillary street-level imagery.
+
+- The Mapillary dataset provides detailed ground-level information but has uneven coverage.
+- The PlanetScope-based dataset provides near-complete and globally consistent coverage along arterial roads.
+
+
+Accuracy and Data Quality
+
+The PlanetScope surface model achieved 89.2% accuracy, outperforming OSM surface tags (64.7%).
+
+
+Summary of Road Statistics
+
+Approximately 0.0466 million km of arterial roads are mapped in OSM.
+
+Based on AI-derived estimates:
+- Paved roads: 0.0416 million km (89.3099%)
+- Unpaved roads: 0.0025 million km (5.3328%)
+
+A total of 0.0161 million km (34.6104%)
+lack OSM surface tags.
+
+PlanetScope-derived predictions provide sur
+{'crs': 'EPSG:4326', 'features': 68604, 'fields': array(['osm_id', 'country', 'continent', 'osm_tags_highway',
+       'osm_tags_surface', 'OSM_surface_class', 'OSM_length',
+       'DL_road_class_2024', 'DL_road_class_2020', 'surface_change_paved',
+       'paved_pixels_2024', 'paved_pixels_2020', 'unpaved_pixels_2024',
+       'unpaved_pixels_2020', 'rw_class', 'Passability_Alphanumeric_Code',
+       'Passability_Descriptive_Code', 'Passability_Numerical_Risk_Score'],
+      dtype=object), 'geometry_type': 'LineString'}
+[Restricted dataset: raw sample rows and per-class breakdown removed before publication. Totals by municipality kept.]
+Mabalacat City 426 km 83.6
+Bamban 111 km 45.2
+Capas 216 km 99.0
+200 49794
+2026-11-01T18:05:00Z
+13407320 Mabalacat 6 0305409000 None None km2 149.66
+   vs COD IoU 0.543
+15585455 Bamban 6 036902000 None None km2 177.48
+   vs COD IoU 0.751
+15585456 Capas 6 036904000 None None km2 440.8
+   vs COD IoU 0.895
+403 5541 https://openstat.psa.gov.ph/Terms
+
+403 5677 https://openstat.psa.gov.ph/Metadata/Open-Data-Product-Agreement
+
+403 5551 https://rsso09.psa.gov.ph/terms-use
+
+202 0 https://data.humdata.org/about/license
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

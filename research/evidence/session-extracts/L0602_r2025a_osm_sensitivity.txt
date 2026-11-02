@@ -1,0 +1,23 @@
+# Tool output extracted from the research session log, line 602, timestamp 2026-11-01T18:08:16.064Z. Conversation text excluded. Token-like query values redacted.
+--------- ------------          ---                                                                                                                     
+
+     5000 02/11/2026 1:45:31 am "<local-path>
+
+    17252 02/11/2026 1:45:31 am "<local-path>
+
+
+
+
+
+
+
+2020 Mabalacat [('COD', 296492, 1.011), ('OSM', 331613, 1.131)] census 293244
+2020 Bamban [('COD', 80015, 1.022), ('OSM', 78817, 1.007)] census 78260
+2020 Capas [('COD', 159555, 1.022), ('OSM', 166101, 1.064)] census 156056
+2024 Mabalacat [('COD', 306846, 1.001), ('OSM', 343258, 1.12)] census 306594
+2024 Bamban [('COD', 82809, 1.022), ('OSM', 81573, 1.007)] census 81012
+2024 Capas [('COD', 165127, 1.015), ('OSM', 171901, 1.056)] census 162724
+GOB Mabalacat COD 95257 OSM 108917
+GOB Bamban COD 37523 OSM 36842
+GOB Capas COD 76827 OSM 80383
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

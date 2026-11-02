@@ -1,0 +1,38 @@
+# Tool output extracted from the research session log, line 441, timestamp 2026-11-01T17:53:48.021Z. Conversation text excluded. Token-like query values redacted.
+(333, 4) ['tile_id', 'tile_url', 'size_mb', 'geometry'] EPSG:4326
+    tile_id                                                                                             tile_url  size_mb
+179     339  https://storage.googleapis.com/open-buildings-data/v3/polygons_s2_level_4_gzip/339_buildings.csv.gz   1433.6
+Mabalacat City ['339'] fully in one tile: True
+Bamban ['339'] fully in one tile: True
+Capas ['339'] fully in one tile: True
+https://storage.googleapis.com/open-buildings-data/v3/polygons_s2_level_4_gzip/339_buildings.csv.gz 200 1433572035 Fri, 23 Jun 2023 09:43:38 GMT bytes
+https://storage.googleapis.com/open-buildings-data/v3/points_s2_level_4_gzip/339_buildings.csv.gz 200 395961512 Fri, 23 Jun 2023 09:36:55 GMT bytes
+https://storage.googleapis.com/open-buildings-data/v3/score_thresholds_s2_level_4.csv 200 75976
+['s2_token', 'geometry', 'confidence_threshold_80%_precision', 'confidence_threshold_85%_precision', 'confidence_threshold_90%_precision', 'building_count_80%_precision', 'building_count_85%_precision', 'building_count_90%_precision', 'building_count', 'num_samples']
+                                         213
+s2_token                                 339
+confidence_threshold_80%_precision     0.763
+confidence_threshold_85%_precision     0.817
+confidence_threshold_90%_precision     0.874
+building_count_80%_precision         8342827
+building_count_85%_precision         4666004
+building_count_90%_precision         1588999
+building_count                      15325418
+num_samples                            10592
+bbox [120.24131353  15.16679164 120.6329586   15.42470772]
+{'132303013', '132303031'}
+ms_links.csv (144, 5) {'2026-02-23': 144}
+          Location    QuadKey                                                                                                                                                                                                        Url    Size  UploadDate
+20567  Philippines  132303013  https://minedbuildings.z5.web.core.windows.net/global-buildings/2026-02-03/global-buildings.geojsonl/RegionName=Philippines/quadkey=132303013/part-00027-4feead82-d499-422b-94cb-c036c212127a.c000.csv.gz  56.1MB  2026-02-23
+20569  Philippines  132303031  https://minedbuildings.z5.web.core.windows.net/global-buildings/2026-02-03/global-buildings.geojsonl/RegionName=Philippines/quadkey=132303031/part-00179-4feead82-d499-422b-94cb-c036c212127a.c000.csv.gz  61.9MB  2026-02-23
+ms_links_new.csv (144, 5) {'2026-08-13': 144}
+          Location    QuadKey                                                                                                                                                                               Url    Size  UploadDate
+20564  Philippines  132303013  https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=Philippines/quadkey=132303013/part-00027-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz  57.4MB  2026-08-13
+20566  Philippines  132303031  https://bfppub.z5.web.core.windows.net/2026-08-13/global-buildings.geojsonl/RegionName=Philippines/quadkey=132303031/part-00179-110f5303-ff85-4c71-a2bf-c6070024fec8.c000.csv.gz  63.2MB  2026-08-13
+stac 200
+4 {'type': 'FeatureCollection', 'links': [{'rel': 'root', 'type': 'application/json', 'href': 'https://planetarycomputer.microsoft.com/api/stac/v1/'}, {'rel': 'self', 'type': 'application/geo+json', 'href': 'https://planetarycomputer.microsoft.com/api/stac/v1/search?collections=ms-buildings'}], 'features': [{'id': 'Philippines_132303031_2023-04-25', 'bbox': [120.2327728680729, 14.60605426176892, 120.9365270973504, 15.28568109932563], 'type': 'Feature', 'links': [{'rel': 'collection', 'type': 'application/json', 'href': 'https://planetarycomputer.microsoft.com/api/stac/v1/collections/ms-buildings
+Philippines_132303031_2023-04-25 {'title': 'Building footprints', 'datetime': '2023-04-25T00:00:00Z', 'description': 'Parquet dataset with the building footprints', 'table:columns': [{'name': 'geometry', 'type': 'byte_array', 'description': 'Building footprint polygons'}, {'name': 'meanHeight', 'type': 'float'}], 'table:row_count': 843894, 'msbuildings:region': 'Philippines', 'msbuildings:quadkey': 132303031, 'msbuildings:processing-date': '2023-04-25'} ['data', 'tilejson', 'rendered_preview'] {'href': 'abfs://footprints/delta/2023-04-25/ml-buildings.parquet/RegionName=Philippines/quadkey=132303031', 'type': 'application/x-parquet', 'roles': ['data'], 'title': 'Building Footprints', 'description': 'Parquet dataset with the building footprints for this region.', 'table:storage_options': {'
+Philippines_132303013_2023-04-25 {'title': 'Building footprints', 'datetime': '2023-04-25T00:00:00Z', 'description': 'Parquet dataset with the building footprints', 'table:columns': [{'name': 'geometry', 'type': 'byte_array', 'description': 'Building footprint polygons'}, {'name': 'meanHeight', 'type': 'float'}], 'table:row_count': 816049, 'msbuildings:region': 'Philippines', 'msbuildings:quadkey': 132303013, 'msbuildings:processing-date': '2023-04-25'} ['data', 'tilejson', 'rendered_preview'] {'href': 'abfs://footprints/delta/2023-04-25/ml-buildings.parquet/RegionName=Philippines/quadkey=132303013', 'type': 'application/x-parquet', 'roles': ['data'], 'title': 'Building Footprints', 'description': 'Parquet dataset with the building footprints for this region.', 'table:storage_options': {'
+Philippines_2022-07-06 {'title': 'Building footprints', 'datetime': '2022-07-06T00:00:00Z', 'description': 'Parquet dataset with the building footprints', 'table:columns': [{'name': 'geometry', 'type': 'byte_array', 'description': 'Building footprint polygons'}], 'table:row_count': 17276706, 'msbuildings:region': 'Philippines'} ['data', 'tilejson', 'rendered_preview'] {'href': 'abfs://footprints/global/2022-07-06/ml-buildings.parquet/RegionName=Philippines', 'type': 'application/x-parquet', 'roles': ['data'], 'title': 'Building Footprints', 'description': 'Parquet dataset with the building footprints for this region.', 'table:storage_options': {'account_name': 'b
+sas 200 {"msft:expiry":"2026-11-01T18:38:46Z","token":"st=[REDACTED]
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

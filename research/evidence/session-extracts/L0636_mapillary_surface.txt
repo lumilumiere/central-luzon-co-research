@@ -1,0 +1,53 @@
+# Tool output extracted from the research session log, line 636, timestamp 2026-11-01T18:19:59.208Z. Conversation text excluded. Token-like query values redacted.
+['gpkg_spatial_ref_sys', 'gpkg_contents', 'gpkg_ogr_contents', 'gpkg_geometry_columns', 'gpkg_tile_matrix_set', 'gpkg_tile_matrix', 'sqlite_sequence', 'gpkg_extensions', 'heigit_phl_roadsurface_lines', 'rtree_heigit_phl_roadsurface_lines_geom', 'rtree_heigit_phl_roadsurface_lines_geom_rowid', 'rtree_heigit_phl_roadsurface_lines_geom_node']
+[('heigit_phl_roadsurface_lines', 'features', 'heigit_phl_roadsurface_lines', '', '2024-11-07T01:57:52.818Z', 112.196042, 4.587867, 126.604538, 20.828847, 4326)]
+(26631, 30) 0 EPSG:4326
+continent                                                    asia
+country_iso_a2                                                 PH
+country_iso_a3                                            ['PHL']
+urban                                                         NaN
+urban_area                       Angeles; San Fernando; Mabalacat
+osm_id                                                679147218.0
+osm_type                                                ways_line
+highway                                              unclassified
+surface                                                  concrete
+smoothness                                              excellent
+osm_surface_class                                           paved
+pred_class                                                    NaN
+pred_label                                                    NaN
+combined_surface_osm_priority                               paved
+combined_surface_DL_priority                                paved
+osm_changeset_timestamp                 2024-04-03 06:21:56+00:00
+DL_mean_timestamp                                             NaT
+osm_length                                                   57.0
+predicted_length                                              NaN
+n_of_predictions_used                                         NaN
+name                                                          NaN
+name:en                                                       NaN
+width                                           
+
+ Mabalacat City rows 9213 km 1477.2
+   combined_surface_DL_priority {'paved': 326.2, 'unpaved': 112.4, nan: 1038.6}
+   combined_surface_osm_priority {'paved': 325.1, 'unpaved': 113.5, nan: 1038.6}
+   pred_label {0.0: 142.4, 1.0: 19.2, nan: 1315.6}
+   osm_surface_class {'paved': 278.5, 'unpaved': 101.3, nan: 1097.5}
+   urban {0.0: 30.1, 1.0: 131.5, nan: 1315.6}
+   predicted_length km 62.3 DL ts 2016-04-03 17:43:12 2022-04-30 10:19:59 osm ts max 2024-07-15 12:05:27+00:00 n_pred median 3.0
+
+ Bamban rows 3156 km 674.5
+   combined_surface_DL_priority {'paved': 105.2, 'unpaved': 66.1, nan: 503.3}
+   combined_surface_osm_priority {'paved': 105.2, 'unpaved': 66.1, nan: 503.3}
+   pred_label {0.0: 26.6, nan: 647.9}
+   osm_surface_class {'paved': 89.7, 'unpaved': 66.1, nan: 518.8}
+   urban {0.0: 17.2, 1.0: 9.4, nan: 647.9}
+   predicted_length km 3.9 DL ts 2017-07-12 01:04:01 2021-05-13 02:24:38 osm ts max 2024-06-22 16:32:57+00:00 n_pred median 3.0
+
+ Capas rows 5015 km 992.7
+   combined_surface_DL_priority {'paved': 143.6, 'unpaved': 48.6, nan: 800.5}
+   combined_surface_osm_priority {'paved': 143.6, 'unpaved': 48.6, nan: 800.5}
+   pred_label {nan: 992.7}
+   osm_surface_class {'paved': 143.6, 'unpaved': 48.6, nan: 800.5}
+   urban {nan: 992.7}
+   predicted_length km 0.0 DL ts NaT NaT osm ts max 2024-07-06 16:49:14+00:00 n_pred median nan
+exit=0
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

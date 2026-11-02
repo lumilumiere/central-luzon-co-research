@@ -1,0 +1,80 @@
+# Tool output extracted from the research session log, line 421, timestamp 2026-11-01T17:44:26.930Z. Conversation text excluded. Token-like query values redacted.
+poly 200 511
+rings 1 [(112.1661, 4.382696, 127.0742, 21.53021)]
+Mabalacat City within extract poly: True
+Bamban within extract poly: True
+Capas within extract poly: True
+pbf 206 4096
+b'\n\tOSMHeader\x18\xb1\x01'
+[b'OSMHeader', b'OsmSchema-V0.6"', b'DenseNodes*', b'Sort.Type_then_ID', b'osmium/1.16.0', b'6https://download.geofabrik.de/asia/philippines-updates', b'OSMData']
+[b'OsmSchema-V0.6"', b'DenseNodes*', b'Sort.Type_then_ID', b'osmium/1.16.0', b'6https://download.geofabrik.de/asia/philippines-updates']
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ Download OpenStreetMap for Philippines | Geofabrik Download Server 
+      
+     
+        var map, layer, countryLayer;
+        function init()
+        {
+            map = new OpenLayers.Map('map');
+            layer = new OpenLayers.Layer.OSM("",
+                ["https://a.tile.geofabrik.de/5f33d2afc5074c6da1a5c2a8a960d501/${z}/${x}/${y}.png",
+                 "https://b.tile.geofabrik.de/5f33d2afc5074c6da1a5c2a8a960d501/${z}/${x}/${y}.png",
+                 "https://c.tile.geofabrik.de/5f33d2afc5074c6da1a5c2a8a960d501/${z}/${x}/${y}.png",
+                ],
+                { attribution: "", tileOptions : {crossOriginKeyword: null} }
+            ); // attribution in page footer
+            map.addLayer(layer);
+            layer = new OpenLayers.Layer.Vector("KML", {
+            strategies: [new OpenLayers.Strategy.Fixed()],
+            protocol: new OpenLayers.Protocol.HTTP({
+                url: "philippines.kml",
+                format: new OpenLayers.Format.KML({
+                    maxDepth: 2
+                })
+            }),
+            styleMap: new OpenLayers.StyleMap({
+            "default": new OpenLayers.Style({
+                graphicName: "cross",
+                pointRadius: 6,
+                fillOpacity: 0.50,
+                fillColor: "#ffcc66",
+                strokeColor: "#ff9933",
+                strokeWidth: 2
+            })
+      
+{'fromTimestamp': '2007-10-08T00:00:00Z', 'toTimestamp': '2026-07-27T09:00Z'}
+ts {'Mabalacat_City': '2026-07-27T09:00:00Z', 'Bamban': '2026-07-27T09:00:00Z', 'Capas': '2026-07-27T09:00:00Z'}
+drivable km {'Mabalacat_City': 697.0, 'Bamban': 322.2, 'Capas': 706.2}
+incl service/track km {'Mabalacat_City': 914.6, 'Bamban': 463.8, 'Capas': 957.0}
+oneway {'Mabalacat_City': 11.3, 'Bamban': 12.1, 'Capas': 9.1}
+lanes {'Mabalacat_City': 22.0, 'Bamban': 23.4, 'Capas': 18.4}
+maxspeed {'Mabalacat_City': 15.3, 'Bamban': 13.7, 'Capas': 15.7}
+surface {'Mabalacat_City': 34.2, 'Bamban': 38.4, 'Capas': 23.1}
+access {'Mabalacat_City': 21.7, 'Bamban': 0.7, 'Capas': 4.4}
+name {'Mabalacat_City': 38.4, 'Bamban': 19.0, 'Capas': 19.1}
+ref {'Mabalacat_City': 6.9, 'Bamban': 4.2, 'Capas': 2.0}
+bridge {'Mabalacat_City': 0.7, 'Bamban': 1.2, 'Capas': 0.5}
+smoothness {'Mabalacat_City': 3.3, 'Bamban': 10.3, 'Capas': 7.9}
+motorway+link {'Mabalacat_City': 40.2, 'Bamban': 10.7, 'Capas': 0.0}
+trunk+link {'Mabalacat_City': 11.5, 'Bamban': 6.6, 'Capas': 14.7}
+primary+link {'Mabalacat_City': 17.5, 'Bamban': 15.0, 'Capas': 29.6}
+secondary+link {'Mabalacat_City': 18.7, 'Bamban': 12.9, 'Capas': 55.6}
+tertiary+link {'Mabalacat_City': 19.3, 'Bamban': 43.0, 'Capas': 71.0}
+unclassified {'Mabalacat_City': 57.1, 'Bamban': 72.2, 'Capas': 135.9}
+residential {'Mabalacat_City': 532.7, 'Bamban': 161.7, 'Capas': 399.3}
+service {'Mabalacat_City': 138.5, 'Bamban': 78.1, 'Capas': 173.3}
+track {'Mabalacat_City': 79.0, 'Bamban': 63.5, 'Capas': 77.5}
+major lanes {'Mabalacat_City': 99.5, 'Bamban': 100.0, 'Capas': 85.0}
+major maxspeed {'Mabalacat_City': 89.1, 'Bamban': 89.2, 'Capas': 78.6}
+major oneway {'Mabalacat_City': 74.2, 'Bamban': 75.1, 'Capas': 40.3}
+major surface {'Mabalacat_City': 88.9, 'Bamban': 99.8, 'Capas': 77.9}
+road-class count tags national?
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

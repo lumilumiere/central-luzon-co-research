@@ -1,0 +1,35 @@
+# Tool output extracted from the research session log, line 477, timestamp 2026-11-01T18:02:33.988Z. Conversation text excluded. Token-like query values redacted.
+                            0                                                                                                                                                                                                                                                                                                                                                                                                                1
+0                      Title:                                                                                                                                                                                                                                                                                                                          Mid-year Population Projection count by city/municipality (admin3) based on 2015 Census
+1                 Originator:                                                                                                                                                                                                                                                                                                                                                                            Philippine Statistics Authority (PSA)
+2           Publication date:                                                                                                                                                                                                                                                                                                                                                                                                       March 2021
+3             Source website:                                                                                                                                                                                                                                                                                                                           https://psa.gov.ph/content/updated-projected-mid-year-population-philippines-2020-2025
+4                   Abstract:                                                                                                                                                                                                                                                                                                                                                                                                              NaN
+5                    Process:  Data Inputs:\n1. City/Municipality population counts and population growth rates from past censuses (1990, 2000, 2010 and 2015)\n2. Updated population projections using the results of 2015 POPCEN\n\nBased on these inputs, population growth rates were utilized to estimate the midyear population for years 2020 to 2025 using the exponential population projection formula. The estimated midyear pop...
+6             Technical notes                                                                                                                                                                                                                                                                                                                           https://psa.gov.ph/content/updated-projected-mid-year-population-philippines-2020-2025
+7                   Progress:                       
+NOTEX="<strong>Definition:</strong>#Total population defines as the sum of the household population and the institutional population, covering all persons living within a specific territory at a given reference time, including Filipinos in embassies or missions abroad.#Land area is based on official cadastral surveys and geographic delineations used to measure territorial size, often reported in square kilometers or hectares via frameworks like the Philippine Standard Geographic Code (PSGC).#Population Density defines as the number of people per unit of land area, usually expressed as persons per square kilometer.#The percent change of population density measures the relative shift in the number of people per unit of land area between two reference periods.##<strong>Method of Computation:</strong> See attached image##<strong>Source of Basic Data:</strong> 2015 Census of Population, 2020 Census of Population and Housing, 2024 Census of Population##<strong>Level of Disaggregation:</strong> Region, Province and Highly Urbanized City, and City/Municipality, 2019 Masterlist of Land Areas of Cities and Municipalities and Barangay Land Area Certifications for Embo Barangays from Land Management Bureau, Department of Environment and Natural Resources, and Land Area of the Special Geographic Area from Ministry of Environment, Natural Resources, and Energy, Bangsamoro Autonomous Region in Muslim Mindanao##<strong>Note/s: </strong>##* - Population counts for the provinces exclude the co
+NEXT-UPDATE="20310807 09:00";
+PX-SERVER="OpenSTAT";
+SURVEY="Census of Population";
+UPDATE-FREQUENCY="Every Five Years"
+"Geographic Location","Total Population","Household Population","Number of Households"
+"......Mabalacat City",306594,306550,85826
+"......Bamban",81012,80472,21346
+"......Capas",162724,162480,42808
+
+barangay rows {'0305409': 27, '0306902': 15, '0306904': 20}
+COD adm4 {'n': {'Bamban': 15, 'Capas': 20, 'Mabalacat City': 27}, 'km2': {'Bamban': 207.48, 'Capas': 446.48, 'Mabalacat City': 97.55}}
+sample adm4       adm4_name    adm4_pcode  area_sqkm
+7473  Atlu-Bola  PH0305409001   2.512913
+7474      Bical  PH0305409002   3.570302
+7475   Bundagul  PH0305409003   4.868136
+https://overpass-api.de/api/interpreter 406 156
+https://maps.mail.ru/osm/tools/overpass/api/interpreter 504 160
+https://overpass-api.de/api/interpreter 406 156
+https://maps.mail.ru/osm/tools/overpass/api/interpreter 504 695
+https://overpass-api.de/api/interpreter 406 156
+https://maps.mail.ru/osm/tools/overpass/api/interpreter 200 2461932
+ways 13384
+weak comps 39 largest [13224, 19, 18, 13, 9] share 0.988
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

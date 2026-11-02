@@ -1,0 +1,36 @@
+# Tool output extracted from the research session log, line 444, timestamp 2026-11-01T17:57:09.564Z. Conversation text excluded. Token-like query values redacted.
+200 len=63095801 mod=Fri, 01 Aug 2025 23:48:14 GMT ar=bytes GIS/Population/Global_2015_2030/R2025A/2020/PHL/v1/100m/constrained/phl_pop_2020_CN_100m_R2025A_v1.tif
+dl 200 63095801 74.204687
+200 len=63493139 mod=Sat, 02 Aug 2025 09:15:41 GMT ar=bytes GIS/Population/Global_2015_2030/R2025A/2024/PHL/v1/100m/constrained/phl_pop_2024_CN_100m_R2025A_v1.tif
+dl 200 63493139 84.927383
+200 len=22779445 mod=Sun, 20 Sep 2020 00:32:25 GMT ar=bytes GIS/Population/Global_2000_2020_Constrained/2020/BSGM/PHL/phl_ppp_2020_constrained.tif
+dl 200 22779445 26.217816
+
+ phl_pop_2020_CN_100m_R2025A_v1.tif 11612 19841 ('float32',) -99999.0 4326 (0.00083333333, 0.00083333333) Compression.lzw True (512, 512)
+   Mabalacat City 296492 cells 6936
+   Bamban 80015 cells 6530
+   Capas 159555 cells 13282
+   Angeles City 476635 cells 10353
+   national sum 111467164
+
+ phl_pop_2024_CN_100m_R2025A_v1.tif 11612 19841 ('float32',) -99999.0 4326 (0.00083333333, 0.00083333333) Compression.lzw True (512, 512)
+   Mabalacat City 306846 cells 6962
+   Bamban 82809 cells 6569
+   Capas 165127 cells 13358
+   Angeles City 493280 cells 10386
+   national sum 115359880
+
+ phl_ppp_2020.tif 11613 19781 ('float32',) -99999.0 4326 (0.0008333333299750276, 0.0008333333300136493) Compression.lzw False (1, 11613)
+   Mabalacat City 161117 cells 11802
+   Bamban 66328 cells 25121
+   Capas 132000 cells 53947
+   Angeles City 247647 cells 14638
+   national sum 110194183
+
+ phl_ppp_2020_constrained.tif 11613 19781 ('float32',) -99999.0 4326 (0.0008333333299750276, 0.0008333333300136493) Compression.lzw False (1, 11613)
+   Mabalacat City 160557 cells 3811
+   Bamban 66035 cells 1437
+   Capas 132437 cells 3773
+   Angeles City 259197 cells 7483
+   national sum 95548804
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

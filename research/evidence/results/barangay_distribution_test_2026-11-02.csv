@@ -1,0 +1,19 @@
+unit,layer,barangays,misallocation_pct,spearman,max_abs_share_gap_pct
+Bamban,r25_2024,15,2.3,0.975,1.4
+Bamban,id6316_2020,15,16.0,0.646,5.1
+Bamban,gob065,15,8.6,0.964,4.6
+Bamban,gob0763,15,8.0,0.971,3.8
+Bamban,ms,15,7.4,0.979,3.1
+Bamban,area,15,48.7,0.496,35.9
+Capas,r25_2024,20,1.6,0.989,0.4
+Capas,id6316_2020,20,19.3,0.892,14.2
+Capas,gob065,20,10.1,0.935,5.4
+Capas,gob0763,20,11.2,0.878,4.0
+Capas,ms,20,6.6,0.937,2.2
+Capas,area,20,58.2,0.34,34.7
+Mabalacat City,r25_2024,27,4.7,0.934,1.2
+Mabalacat City,id6316_2020,27,58.9,0.46,41.2
+Mabalacat City,gob065,27,11.0,0.941,4.5
+Mabalacat City,gob0763,27,9.9,0.917,4.6
+Mabalacat City,ms,27,18.8,0.916,7.9
+Mabalacat City,area,27,54.6,0.288,34.4

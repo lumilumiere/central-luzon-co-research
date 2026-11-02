@@ -1,0 +1,22 @@
+# Tool output extracted from the research session log, line 474, timestamp 2026-11-01T18:01:07.531Z. Conversation text excluded. Token-like query values redacted.
+ms 132303013 200 60204917 50.099426
+ms 132303031 200 66275659 49.630936
+total rows 1659943 {'height': 1659943, 'confidence': 1659943}
+['{"type": "Feature", "properties": { "height": -1.0, "confidence": -1.0},"geometry": {"type": "Polygon","coordinates": [[[120.2333437948779, 15.90042409379444], [120.2333249138818, 15.90048863358857], [120.2331882136611, 15.90045164386525], [120.2332070946572, 15.90038710405926], [120.2333437948779, 15.90042409379444]]]}}\n', '{"type": "Feature", "properties": { "height": -1.0, "confidence": -1.0},"geometry": {"type": "Polygon","coordinates": [[[120.6291464190443, 15.66449576668214], [120.6291870924947, 15.66437696448283], [120.6292490688751, 15.66439663603866], [120.629208403214, 15.66451544069889], [120.6291464190443, 15.66449576668214]]]}}\n']
+Mabalacat City MS count 29753 area_km2 6.5 median_m2 99.8 conf==-1 29753 conf dist None height -1 29753 h>0 0 h stats {'count': 0.0, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}
+Bamban MS count 17737 area_km2 2.28 median_m2 73.6 conf==-1 17737 conf dist None height -1 17737 h>0 0 h stats {'count': 0.0, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}
+Capas MS count 35920 area_km2 5.03 median_m2 76.2 conf==-1 35920 conf dist None height -1 35920 h>0 0 h stats {'count': 0.0, 'mean': nan, 'std': nan, 'min': nan, '25%': nan, '50%': nan, '75%': nan, 'max': nan}
+invalid sample 0
+206 2000000 bytes 0-1999999/1433572035
+latitude,longitude,area_in_meters,confidence,geometry,full_plus_code
+15.56805748,119.92340558,30.0633,0.6801,"POLYGON((119.923405125028 15.5680137649232, 119.923434790249 15.5680907954338, 119.923406031 15.5681012021054, 119.923376365787 15.5680241715895, 119.923405125028 15.5680137649232))",7P7XHW9F+69C9
+rows in 2MB 21360
+5000000 12
+10000000 21
+15000000 30
+15325418 31
+rows 15325418 bbox rows 400406 31
+Mabalacat City GOB count 95257 area_km2 8.02 median 54.0 conf q [0.666, 0.724, 0.784, 0.838, 0.899] >=.763 56638 >=.817 32838 >=.874 10964 min conf 0.65
+Bamban GOB count 37523 area_km2 3.11 median 50.5 conf q [0.666, 0.724, 0.783, 0.84, 0.901] >=.763 22079 >=.817 13050 >=.874 4635 min conf 0.65
+Capas GOB count 76827 area_km2 6.58 median 49.0 conf q [0.665, 0.721, 0.78, 0.837, 0.901] >=.763 44357 >=.817 25862 >=.874 8874 min conf 0.65
+Shell cwd was reset to D:\Orca\Workspace\geoteron-ai-research\mermaid

@@ -1,0 +1,13 @@
+unit,return_period,hazard_var,km2,pct_of_cod_area
+Bamban,100yr,1,13.07,6.3
+Bamban,100yr,2,16.55,8.0
+Bamban,100yr,3,15.32,7.4
+Bamban,100yr,any,44.94,21.6
+Capas,100yr,1,38.25,8.6
+Capas,100yr,2,44.84,10.0
+Capas,100yr,3,39.28,8.8
+Capas,100yr,any,122.37,27.4
+Mabalacat City,100yr,1,15.23,15.6
+Mabalacat City,100yr,2,10.23,10.5
+Mabalacat City,100yr,3,7.96,8.2
+Mabalacat City,100yr,any,33.42,34.2

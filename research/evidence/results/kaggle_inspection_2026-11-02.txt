@@ -1,0 +1,85 @@
+## tech 694652 f4da20935f2135182ba047ef89ff1b64c883b0ba12df464cc636de51b7b23490
+## smart 371505 cca65d70152d6420cd6fa1a0e6ecc9ec7d485691e8dfbc8f974884e97cd58883
+# Mashvisor -- Enterprise Sample Data Pack
+Date: February 2026
+
+------------------------------------------------------------------------
+
+## Overview
+
+This sample data pack is provided to illustrate **Mashvisor's data
+structure, consistency, and integration readiness** for enterprise
+partners.
+
+The files included reflect **production-grade schemas and metric
+definitions**, with a deliberately limited scope to support technical
+review, product evaluation, and internal alignment discussions.
+
+This is **not a full data delivery** and does not represent complete
+market coverage or contractual data access.
+
+Mashvisor's production environment supports **nationwide U.S. coverage,
+multi-year historical depth, and API-driven delivery at scale**. This
+sample prioritizes structural clarity over volume.
+
+------------------------------------------------------------------------
+
+## What This Sample Demonstrates
+
+This sample is designed to showcase:
+
+-   Clean, predictable schemas suitable for enterprise ingestion\
+-   API-first architecture designed for downstream systems\
+-   Consistent metric definitions across STR and LTR use cases\
+-   Historical time-series rental performance\
+-   Explainable comparable selection logic for valuation workflows\
+-   Structured JSON delivery optimized for in
+Property_and_Comps_Snapshot.csv (1, 89) ['id', 'sale_type', 'home_type', 'property_type', 'property_sub_type', 'address', 'short_address', 'short_address_sorted', 'short_address_reversed', 'unit_number', 'address_revealing', 'city', 'state', 'county', 'zip', 'beds', 'baths', 'full_baths', 'num_of_units', 'total_rooms', 'location', 'sqft', 'lot_size', 'parcel_number', 'year_built']
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+philippines mentions 0
+city {'Los Angeles': 1}
+state {'CA': 1}
+zip {'90046': 1}
+STR_Monthly_Performance_ZIP.csv (445, 23) ['zip_code', 'data_granularity', 'metric_window', 'currency', 'active_listings', 'estimated_monthly_revenue_usd', 'occupancy_rate_pct', 'average_daily_rate_usd', 'studio_estimated_monthly_revenue_usd', 'studio_occupancy_rate_pct', 'studio_average_daily_rate_usd', 'one_bed_estimated_monthly_revenue_usd', 'one_bed_occupancy_rate_pct', 'one_bed_average_daily_rate_usd', 'two_bed_estimated_monthly_revenue_usd', 'two_bed_occupancy_rate_pct', 'two_bed_average_daily_rate_usd', 'three_bed_estimated_monthly_revenue_usd', 'three_bed_occupancy_rate_pct', 'three_bed_average_daily_rate_usd', 'four_bed_estimated_monthly_revenue_usd', 'four_bed_occupancy_rate_pct', 'four_bed_average_daily_rate_usd']
+                                                          0                   1
+zip_code                                              94501               94502
+data_granularity                         zip_code_aggregate  zip_code_aggregate
+metric_window                            rolling_30_day_avg  rolling_30_day_avg
+currency                                                USD                 USD
+active_listings                                        1047                 164
+estimated_monthly_revenue_usd                       1112.34             1296.66
+occupancy_rate_pct                                       26                  24
+average_daily_rate_usd                                  159                 203
+studio_estimated_monthly_revenue_usd                935.312             1644.02
+studio_occupancy_rate_pct                                28                  50
+studio_average_daily
+philippines mentions 0
+zip_code {'94501': 1, '94502': 1, '94536': 1, '94537': 1, '94538': 1}
+Mashvisor_Enterprise_Sample_Data/Mashvisor_Enterprise_Sample_Data/Address_Lookup_API_Response.json 1715 PH mentions 0 // Address: 1525 N Hayworth Ave #302, Los Angeles, CA 90046
+// API call: https://api.mashvisor.com/v1.1/client/rento-calculator/lookup?state=CA&zip_code=90046&resource=airbnb&beds=3&city=Los%20Angeles&lat=34.0987&lng=-11
+Mashvisor_Enterprise_Sample_Data/Mashvisor_Enterprise_Sample_Data/List_Comps_API_Response.json 79881 PH mentions 0 // Address: 1525 N Hayworth Ave #302, Los Angeles, CA 90046
+// API call: https://api.mashvisor.com/v1.1/client/rento-calculator/list-comps?state=CA&zip_code=90046&resource=airbnb&beds=3&city=Los%20Angeles&lat=34.0987&lng
+['Part_1.3.png']
+(5000, 15) ['Timestamp', 'Latitude', 'Longitude', 'Vehicle_Count', 'Traffic_Speed_kmh', 'Road_Occupancy_%', 'Traffic_Light_State', 'Weather_Condition', 'Accident_Report', 'Sentiment_Score', 'Ride_Sharing_Demand', 'Parking_Availability', 'Emission_Levels_g_km', 'Energy_Consumption_L_h', 'Traffic_Condition']
+                         count unique                  top  freq        mean         std        min         25%
+Timestamp                 5000   5000  2024-03-01 00:00:00     1         NaN         NaN        NaN         NaN
+Latitude                5000.0    NaN                  NaN   NaN   40.749645    0.086123  40.600016   40.675403
+Longitude               5000.0    NaN                  NaN   NaN  -73.847433    0.086204 -73.999987  -73.920281
+Vehicle_Count           5000.0    NaN                  NaN   NaN    153.9212   83.523342       10.0        80.0
+Traffic_Speed_kmh       5000.0    NaN                  NaN   NaN   42.111096    21.70772   5.002789   23.195752
+Road_Occupancy_%        5000.0    NaN                  NaN   NaN   54.748397   26.145238  10.005031   32.089653
+Traffic_Light_State       5000      3               Yellow  1726         NaN         NaN        NaN         NaN
+Weather_Condition         5000      4                 Rain  1279         NaN         NaN        NaN         NaN
+Accident_Report         5000.0    NaN                  NaN   NaN       0.096    0.294621        0.0         0.0
+Sentiment_Score         5000.0    NaN                  NaN   NaN   -0.005652     0.58379  -0.999819   -0.500154
+Ride_Sharing_Demand     5000.0    NaN                  NaN   NaN     50.4878   28.484426        1.0        26.0
+Parking_Availability    5000.0    NaN                  NaN   NaN      24.613   14.532511        0.0        12.0
+Emission_Levels_g_km    5000.0    NaN                  NaN   NaN  272.174927  130.086372  50.136855  160.564433
+Energy_Consumption_L_h  5000.0    NaN                  NaN   NaN   17.343243    7.208277   5.003787   11.098761
+Traffic_Condition         5000      3                 High  3166         NaN         NaN        NaN         NaN
+             Timestamp   Latitude  Longitude
+0  2024-03-01 00:00:00  40.842275 -73.703149
+1  2024-03-01 00:05:00  40.831119 -73.987354
+2  2024-03-01 00:10:00  40.819549 -73.732462
+Latitude 40.60001638114008 40.89997245351517
+Longitude -73.99998703685291 -73.70015891091866

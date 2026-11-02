@@ -1,0 +1,60 @@
+# Tool output extracted from the research session log, line 250, timestamp 2026-11-01T17:18:02.577Z. Conversation text excluded. Token-like query values redacted.
+Exit code 101
+Sun, Nov  1, 2026  5:17:36 PM
+--geofabrik
+200 len=23835 mod=Sun, 01 Nov 2026 17:16:16 GMT ct=text/html final=https://download.geofabrik.de/asia/philippines.html
+
+200 len=612430134 mod=Sat, 31 Oct 2026 23:59:08 GMT ct=application/octet-stream final=https://download.geofabrik.de/asia/philippines-261031.osm.pbf
+
+# original OSM minutely replication sequence number 7353075
+timestamp=2026-10-31T21\:23\:06Z
+sequenceNumber=4956
+60557ff784e8cd77fd63d20541b49f0f  philippines-latest.osm.pbf
+--hdx
+cod-ab-phl 200 15748
+
+philippines-road-surface-data 200 12507
+
+philippines-population-projection-2020-2025-admin3 200 5423
+
+cod-ps-phl 200 25114
+
+--geoboundaries
+ADM1 200 1913
+
+ADM2 200 1878
+
+ADM3 200 1920
+
+ADM4 404 315
+
+--worldpop
+200 len= mod= ct=text/html; charset=UTF-8 final=https://hub.worldpop.org/geodata/summary?id=6316
+
+api 200 38671
+
+200 len=188757526 mod=Thu, 22 Nov 2018 18:11:49 GMT ct=image/tiff final=https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/PHL/phl_ppp_2020.tif
+
+--google
+200 len=107645 mod= ct=text/html; charset=utf-8 final=https://sites.research.google/gr/open-buildings/
+
+200 len=250366 mod= ct=application/octet-stream final=https://openbuildings-public-dot-gweb-research.uw.r.appspot.com/public/tiles.geojson
+
+200 len=107645 mod= ct=text/html; charset=utf-8 final=https://sites.research.google/gr/open-buildings/
+
+--ms
+ms-links 200 7171802
+
+pc 200 5827
+
+200 len=5087 mod=Sun, 01 Nov 2026 06:18:48 GMT ct=text/html final=https://planetarycomputer.microsoft.com/dataset/ms-buildings
+
+--psa
+403 len=5404 mod= ct=text/html; charset=UTF-8 final=https://psa.gov.ph/classification/psgc
+
+403 len=5356 mod= ct=text/html; charset=UTF-8 final=https://openstat.psa.gov.ph/
+
+pxweb 200 1434
+
+[{"id":"2E","type":"l","text":"Agriculture, Forestry, Fisheries"},{"id":"3K","type":"l","text":"Decent Work Statistics"},{"id":"3M","type":"l","text":"Digital Connectivity"},{"id":"2B","type":"l","text":"Economic Accounts"},{"id":"1C","type":"l","text":"Education"},{"id":"3G","type":"l","text":"Energy"},{"id":"3A","type":"l","text":"Environment"},{"id":"3L","type":"l","text":"Food Security Indicat
+Unable to create process using '"<local-path>" --version': The system cannot find the file specified.
